@@ -2,6 +2,8 @@
 #require 'pry'; binding.pry # pry break point
 
 def bubble_sort(arr)
+	# var temp acts as both placeholder for swapping and flag to determine if
+	# another iteration is needed
 	temp = true
 	while temp
 		i = 0
